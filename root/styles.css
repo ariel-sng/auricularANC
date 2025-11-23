@@ -1,0 +1,191 @@
+span{
+    margin-top: 6px;
+    color: black;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    font-family: "Segoe UI", sans-serif;
+  }
+  h1 {
+    margin: 15px 0;
+    color: #444;
+    font-weight: 600;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+  }
+  h3 {
+    margin-top: 25px;
+    color: #444;
+    font-weight: 600;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+  }
+  
+  label {
+    font-weight: 600;
+    color: #555;
+  }
+  
+  input[type="number"] {
+    width: 200px;
+    margin-top: 5px;
+    padding: 6px 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    background: #fff;
+    color: black;
+  }
+  
+  input[type="number"]:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 4px rgba(13,110,253,0.4);
+    outline: none;
+  }
+  
+  input[type="number"]:hover {
+    border-color: #888;
+  }
+  
+  input[type="range"] {
+    -webkit-appearance: none;
+    width: 200px;
+    height: 6px;
+    background: #dee2e6;
+    border-radius: 4px;
+    outline: none;
+    transition: background 0.2s ease;
+    margin-top: 8px;
+  }
+  
+  input[type="range"]:hover {
+    background: #cdd3d8;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    background: #0d6efd;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+    transition: transform 0.15s ease;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb:hover {
+    transform: scale(1.15);
+  }
+  
+  input[type="range"]:focus::-webkit-slider-thumb {
+    box-shadow: 0 0 6px rgba(13,110,253,0.6);
+  }
+  
+  /* agregado solo para firefox (por si no funca bien) */
+  input[type="range"]::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    background: #0d6efd;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+  }
+
+  #plotCanvas {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+  }
+  
+  
+  #controls button {
+    background: #0d6efd;
+    border: none;
+    padding: 8px 18px;
+    font-size: 15px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.25);
+  }
+  
+  #controls button:hover {
+    opacity: 0.9;
+    transform: scale(1.03);
+    box-shadow: 0 5px 12px rgba(0,0,0,0.28);
+  }
+  
+  #resetBtn {
+    background-color: #f0ad4e !important;
+  }
+  
+  .row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 20px;
+    align-items: flex-start;
+  }
+  
+  .control-block {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+  }
+  
+  #complexForm button,
+  #bluntForm button {
+    align-self: flex-start;
+    margin-top: 10px;
+  }
+  
+  ul#inputList {
+    padding-left: 20px;
+    margin-top: 10px;
+    color: black;
+  }
+  
+  ul#inputList li {
+    padding: 6px 10px;
+    margin-bottom: 5px;
+    background: #f8f9fa;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    font-family: monospace;
+  }
+  ul#complexList {
+    padding-left: 20px;
+    margin-top: 10px;
+    color: black;
+  }
+  
+  ul#complexList li {
+    padding: 6px 10px;
+    margin-bottom: 5px;
+    background: #f8f9fa;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    font-family: monospace;
+  }
+  
+  .section-divider {
+    border: 0;
+    border-top: 2px solid #e5e5e5;
+    margin: 25px 0;
+  }
+  
+  @media(max-width: 600px) {
+    input[type="range"],
+    input[type="number"] {
+      width: 100%;
+    }
+  }
+  
