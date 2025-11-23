@@ -4,7 +4,7 @@ La implementación está realizada completamente en **HTML + CSS + JavaScript**,
 
 ## Demo en vivo (GitHub Pages)
 
- **[Abrir simulación ANC](https://ariel-sng.github.io/auricularANC/root/)**  
+<a href="https://ariel-sng.github.io/auricularANC/root/" target="_blank"> **Abrir simulación ANC** </a>
 
 La aplicación es 100% web y no requiere instalación.
 
