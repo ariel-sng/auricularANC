@@ -34,7 +34,7 @@ root/
    
    ```bash
    git clone https://github.com/ariel-sng/auricularANC
-   
+   ```
 3. Abrí el archivo **/root/index.html** en cualquier navegador moderno.
 4. ¡Simulador abierto! No requiere servidor ni instalación de librerías externas.
 
