@@ -1,2 +1,2 @@
-# simulacion - Teoría de control
+# Teoría de control - Simulación
 Simulación de un sistema de lazo cerrado para un auricular ANC ("Active Noise Cancellation", Cancelación Activa de Ruido)
